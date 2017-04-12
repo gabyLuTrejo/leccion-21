@@ -1,0 +1,41 @@
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+.logo{
+  float: right; /*Logo posicionado a la derecha*/
+}
+
+header{
+  position: fixed; /*Menú fijo*/
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2ECC71; /*Texto*/
+  color: #FFF; /*Fondo*/
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
