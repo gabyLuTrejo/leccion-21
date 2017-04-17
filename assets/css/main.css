@@ -24,6 +24,21 @@ header{
   overflow: auto;
 }
 
+#home{
+  background-image: url(../img/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home{
+  color: white;
+  padding: 70px;
+}
+
 .text-home{
   font-size: 53px;
 }
@@ -38,4 +53,41 @@ header{
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
+}
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #FFF;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#work {
+  /*background-color: none;*/
+  text-align: center;
+  color: #000;
+  padding: 70px 7px;
+}
+
+.box-work {
+  display: inline-block;
+  width: 30%;
+  margin-top: 60px;
+  /*padding: 10px;*/
+}
+
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
 }
